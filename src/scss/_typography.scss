@@ -1,0 +1,138 @@
+h1,
+.h1 {
+    font-size: $font-hg;
+}
+
+h2,
+.h2 {
+    font-size: $font-lg;
+}
+
+h3,
+.h3 {
+    font-size: $font-md;
+}
+
+h4,
+.h4 {
+    font-size: $font-sm;
+}
+
+h5,
+.h5 {
+    font-size: $font-xs;
+}
+
+h6,
+.h6 {
+    font-size: $font-xxs;
+}
+
+.text {
+    &-orange {
+        color: #ff6a00;
+    }
+}
+
+//text sizes
+.text {
+    &-hg {
+        font-size: $font-md;
+    }
+    &-lg {
+        font-size: $font-sm;
+    }
+    &-md {
+        font-size: $font-base;
+    }
+    &-sm {
+        font-size: $font-xs;
+    }
+    &-xs {
+        font-size: $font-xxs;
+    }
+}
+
+//text font-weights
+.text {
+    &-simple {
+        font-weight: normal;
+    }
+    &-strong {
+        font-weight: bold
+    }
+    &-thin {
+        font-weight: lighter;
+    }
+    &-toupper{
+        text-transform: uppercase;
+    }
+}
+
+//text style
+.text {
+    &-italic {
+        font-style: italic;
+    }
+}
+
+//text fonts
+.default {
+    &-title {
+        font-family: 'Economica', sans-serif !important;
+    }
+    &-text {
+        font-family: 'Lato', sans-serif !important;
+    }
+    &-label {
+        font-family: 'Lato', sans-serif !important;
+    }
+}
+
+
+@include media-breakpoint-down(xs) {
+    p,
+    .p {
+        font-size: $font-xxs;
+    }
+    .urd{
+        font-size: 8px !important;
+    }
+    h1,
+    .h1 {
+        font-size: $font-lg;
+    }
+    h2,
+    .h2 {
+        font-size: $font-md;
+    }
+    h3,
+    .h3 {
+        font-size: $font-sm;
+    }
+    h4,
+    .h4 {
+        font-size: $font-xs;
+    }
+    h5,
+    .h5 {
+        font-size: $font-xxs;
+    }
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+   @include media-breakpoint-up($breakpoint) {
+     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+     .f#{$infix}-#{12}       { font-size: $font-size-base * 0.75 !important; }
+     .f#{$infix}-#{14}       { font-size: $font-size-base * 0.875 !important; }
+     .f#{$infix}-#{16}       { font-size: $font-size-base !important; }
+     .f#{$infix}-#{18}       { font-size: $font-size-base * 1.125 !important; }
+     .f#{$infix}-#{20}       { font-size: $font-size-base * 1.25 !important; }
+     .f#{$infix}-#{24}       { font-size: $font-size-base * 1.5 !important; }
+     .f#{$infix}-#{28}       { font-size: $font-size-base * 1.75 !important; }
+     .f#{$infix}-#{32}       { font-size: $font-size-base * 2 !important; }
+     .f#{$infix}-#{36}       { font-size: $font-size-base * 2.25 !important; }
+     .f#{$infix}-#{40}       { font-size: $font-size-base * 2.5 !important; }
+   }
+}

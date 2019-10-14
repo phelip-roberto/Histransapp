@@ -1,0 +1,58 @@
+{
+   "data": [
+      {
+         "id": 1,
+         "establishment": "Estabelecimento 1",
+         "tid": "00000001",
+         "type": "Credito",
+         "value": "10.00 ",
+         "nsu": "12345667890",
+         "date": "01/04/2019 09:01:00"
+      },
+      {
+         "id": 2,
+         "establishment": "Estabelecimento 2",
+         "tid": "00000002",
+         "type": "Credito",
+         "value": "14.20",
+         "nsu": "21312312131",
+         "date": "04/04/2019 10:39:55"
+      },
+      {
+         "id": 3,
+         "establishment": "Estabelecimento 3",
+         "tid": "00000003",
+         "type": "Debito",
+         "value": "80.40",
+         "nsu": "34534354345",
+         "date": "02/04/2019 12:02:12"
+      },
+      {
+         "id": 4,
+         "establishment": "Estabelecimento 1 ",
+         "tid": "00000001",
+         "type": "Credito",
+         "value": "214.00",
+         "nsu": "23462346235",
+         "date": "02/04/2019 23:31:08"
+      },
+      {
+         "id": 5,
+         "establishment": "Estabelecimento 1",
+         "tid": "00000001",
+         "type": "Voucher",
+         "value": "11.01",
+         "nsu": "54856584568",
+         "date": "01/04/2019 17:32:43"
+      },
+      {
+         "id": 6,
+         "establishment": "Estabelecimento 2",
+         "tid": "00000002",
+         "type": "Debito",
+         "value": "131.03",
+         "nsu": "26346484524",
+         "date": "03/04/2019 18:21:35"
+      }
+   ]
+}

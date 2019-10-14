@@ -1,0 +1,23 @@
+// Here you can add other styles
+.back-thead {
+   .ui-table-thead > tr > th {
+      background: linear-gradient(to bottom,#f69953,#ff6a00) !important;
+      color: #fff !important;
+      text-align: center !important;
+   }
+}
+
+.page-item.active .page-link {
+   background-color: $brand-orange;
+   border-color: $brand-orange;
+}
+
+.btn-orange {
+   background: $brand-orange-ger7;
+   color: $brand-white;
+}
+
+.filter .form-control {
+   border: 1px solid #888;
+   resize: none;
+}   

@@ -1,0 +1,79 @@
+<div class="app-body">
+  <main class="main d-flex align-items-center">
+    <div class="container">
+      <ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '3px' }"></ngx-loading>
+      <p-growl [(value)]="msgs" sticky=true></p-growl>
+      <div class="row">
+        <div class="col-md-6 col-sm-10 col-12 mx-auto">
+          <div class="card-group">
+            <div class="card p-4">
+              <div class="card-header">
+                <img src="./assets/img/logo.png" alt="Logo" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <form *ngIf="!recoverPass, else elseBlock" #loginForm="ngForm"
+                  ngNativeValidate (ngSubmit)="doLogin(loginForm.value)">
+                  <h1 class="text-orange h2">Login</h1>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="icon-user"></i></span>
+                    </div>
+                    <input type="text" ngModel class="form-control" 
+                      placeholder="Login" name="username" required>
+                  </div>
+                  <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="icon-lock"></i></span>
+                    </div>
+                    <input type="password" ngModel class="form-control" pattern="[a-zA-Z0-9$@]{1,}"
+                      placeholder="Password" name="password" required>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <button type="submit" (keydown.enter)="submit" 
+                        [disabled]="!loginForm.valid" class="btn btn-outline-dark px-4">Entrar</button>
+                    </div>
+                    <div class="col-6 text-right">
+                      <button type="button" (click)="recoverPass = !recoverPass"
+                        class="btn btn-link text-orange px-0">Esqueceu a Senha?</button>
+                    </div>
+                  </div>
+                </form>
+                <ng-template #elseBlock>
+                  <form #recoverForm="ngForm"
+                  ngNativeValidate (ngSubmit)="sendRecover(recoverForm.value)">
+                    <h1 class="text-orange h2">Recuperar Senha</h1>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="icon-user"></i></span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Nome do Usuário (Login)"
+                        ngModel name="username" required>
+                    </div>
+                    <div class="input-group mb-4">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="cui-envelope-closed"></i></span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="E-mail" 
+                        ngModel name="email" required email pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}">
+                    </div>
+                    <div class="row">
+                      <div class="col-6 my-auto text-center text-md-left">
+                        <button type="button" (click)="recoverPass = !recoverPass"
+                          class="btn btn-outline-dark px-4">Cancelar</button>
+                      </div>
+                      <div class="col-6 my-auto text-center text-md-right">
+                        <button type="submit" (keydown.enter)="submit" 
+                          [disabled]="!recoverForm.valid" class="btn btn-outline-dark px-4">Enviar</button>
+                      </div>
+                    </div>
+                  </form>
+                </ng-template>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>

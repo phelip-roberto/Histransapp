@@ -1,0 +1,17 @@
+{
+   "/auth": {
+     "target": "http://vm-ger7-dev01",
+     "secure": true,
+     "pathRewrite": {
+     "^": ""
+   },
+     "changeOrigin": true
+   },
+   "/histrans": {
+     "target": "http://vm-ger7-dev01",
+     "secure": true,
+     "pathRewrite": {
+       "^": ""
+     }
+   }
+ }

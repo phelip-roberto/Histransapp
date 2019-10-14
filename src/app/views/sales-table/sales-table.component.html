@@ -1,0 +1,118 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '3px' }"></ngx-loading>
+    <p-growl [(value)]="msgs" sticky=true></p-growl>
+    <div class="col-12">
+      <form #filterForm="ngForm" (ngSubmit)="filterGetTransactions(filterForm.value)">
+        <div class="row d-flex justify-content-end">
+          <h2 class="h4 mr-auto">Vendas</h2>
+          <p-calendar class="mt-2 mt-sm-0" [(ngModel)]="initial_date" [locale]="pt" dateFormat="dd/mm/yy"
+            placeholder="DD/MM/YYYY" name="initial_date"></p-calendar>
+          <i class="fas fa-arrow-right d-none d-sm-block mx-sm-3 my-2"></i>
+          <p-calendar class="mt-2 mt-sm-0 ml-1 ml-sm-0" [(ngModel)]="final_date" [locale]="pt" dateFormat="dd/mm/yy"
+            placeholder="DD/MM/YYYY" [minDate]="initial_date" name="final_date"></p-calendar>
+        </div>
+
+        <div class="form-row my-3 text-muted filter">
+          <div class="col-md-6 col-sm-4 col-8">
+            <label for="establishment">Estabelecimento</label>
+            <input type="text" pKeyFilter="alphanum" class="form-control" placeholder="Estabelecimento" ngModel name="mid"
+              id="establishment">
+          </div>
+          <div class="col-md-2 col-sm-2 col-4">
+            <label for="type">Tipo</label>
+            <select class="form-control" id="type" ngModel name="type">
+              <option value="" selected>Todos</option>
+              <option *ngFor="let type of transType" [value]="type.id">{{ type.name }}</option>
+            </select>
+          </div>
+          <div class="col-md-2 col-sm-3 col-6">
+            <label for="nsu">NSU</label>
+            <input type="text" pKeyFilter="int" class="form-control" placeholder="NSU" ngModel name="stan" id="stan">
+          </div>
+          <div class="col-md-2 col-sm-3 col-6">
+            <label for="terminal">Terminal Lógico</label>
+            <input type="text" pKeyFilter="alphanum" class="form-control" placeholder="Terminal Lógico" ngModel name="tid" id="tid">
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-sm-4 col-12 d-flex justify-content-between">
+            <span class="h5">Quantidade: {{ totalTransactions }}</span>
+            <span class="h5">Total: {{ totalAmount  | currency:'BRL' }}</span>
+          </div>
+          <div class="col-sm-8 col-12 d-flex justify-content-end">
+            <button type="submit" class="btn btn-square btn-orange mr-2">Filtrar</button>
+            <button type="button" class="btn btn-square btn-orange">Exportar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-12 mt-2">
+      <div class="row">
+        <p-table *ngIf="transactions != '', else transactionEmpty" [value]="transactions" [paginator]="true" [rows]="15" class="back-thead" dataKey="trans.stan">
+          <ng-template pTemplate="header">
+            <tr>
+              <th>Estabelecimento</th>
+              <th class="ui-p-5">Terminal Lógico</th>
+              <th class="ui-p-4">Tipo</th>
+              <th class="ui-p-2">Valor</th>
+              <th class="ui-p-6">NSU</th>
+              <th class="ui-p-3">Data</th>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-expanded="expanded" let-info>
+            <tr>
+              <td>
+                <a href="" [pRowToggler]="info">
+                  <i [ngClass]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'" class="mr-2 hid"></i>
+                </a>
+                {{ info.trans.term.acq }}
+              </td>
+              <td class="ui-p-5">{{ info.trans.term.tid }}</td>
+              <td class="ui-p-4">{{ typeTrans(info.trans.type) }}</td>
+              <td class="ui-p-2">{{ info.trans.amount | currency:'BRL' }}</td>
+              <td class="ui-p-6">{{ info.trans.stan }}</td>
+              <td class="ui-p-3">{{ formatDate(info.trans.datetime) }}</td>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="rowexpansion" let-rowData>
+            <tr>
+              <td [attr.colspan]="3">
+                <div class="ui-g ui-fluid" style="font-size:16px;padding:20px">
+                  <div class="ui-g-12 ui-md-9">
+                    <div class="ui-g">
+                      <div class="ui-g-12">
+                        <b>Estabelecimento:</b> {{ rowData.trans.term.acq }}
+                      </div>
+                      <div class="ui-g-12">
+                        <b>Terminal Lógico:</b> {{ rowData.trans.term.tid }}
+                      </div>
+                      <div class="ui-g-12">
+                        <b>Tipo:</b> {{ typeTrans(rowData.trans.type) }}
+                      </div>
+                      <div class="ui-g-12">
+                        <b>Valor:</b> {{ rowData.trans.amount | currency:'BRL' }}
+                      </div>
+                      <div class="ui-g-12">
+                        <b>NSU:</b> {{ rowData.trans.stan }}
+                      </div>
+                      <div class="ui-g-12">
+                        <b>Data:</b> {{ formatDate(rowData.trans.datetime) }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </ng-template>
+        </p-table>
+        <ng-template #transactionEmpty>
+          <div class="col-12 text-center alert alert-dark" role="alert">
+            Não há registros de transações neste período.
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+<p-growl [(value)]="msgs" sticky=true></p-growl>
+<ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '3px' }"></ngx-loading>
+<p-dialog [(visible)]="display" [modal]="true" [responsive]="true" [style]="{width: '410px', minWidth: '200px'}" [minY]="70" 
+    [baseZIndex]="10000" [draggable]="false" [resizable]="false" [closable]="false">
+  <p-header>
+    Alterar a Senha
+  </p-header>
+  <form #newPassForm="ngForm" ngNativeValidate (ngSubmit)="changePassword(newPassForm.value)">
+    <div class="form-group">
+      <label class="text-orange text-strong text-italic" for="newPass">Nova Senha</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"><i class="icon-lock"></i></span>
+        </div>
+        <input type="password" ngModel class="form-control" pattern="[a-zA-Z0-9$@]{1,}"
+          placeholder="Digite a Nova Senha" name="newPass" minlength="5" required id="newPass">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="text-orange text-strong text-italic" for="confirmPass">Confirme a Senha</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"><i class="icon-lock"></i></span>
+        </div>
+        <input type="password" ngModel class="form-control" pattern="[a-zA-Z0-9$@]{1,}" minlength="5"
+          placeholder="Digite a Confirmação da Senha" name="confirmPass" required id="confirmPass">
+      </div>
+    </div>
+    <p-footer class="d-flex justify-content-end">
+      <button type="submit" (keydown.enter)="submit" [disabled]="!newPassForm.valid"
+        class="btn btn-square btn-orange mr-2">Confirmar</button>
+      <button (click)="display=false" class="btn btn-square btn-orange mr-2">Cancelar</button>
+    </p-footer>
+  </form>
+</p-dialog>

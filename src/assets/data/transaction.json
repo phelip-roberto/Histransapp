@@ -1,0 +1,1914 @@
+{
+   "data": [
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "inst": 12,
+            "inst_mode": 2,
+            "stan": 300145,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000002340",
+            "stan": 300003,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 4,
+            "amount": "0000000010000",
+            "stan": 300155,
+            "datetime": "190226144413",
+            "entry": 4,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "ALELO"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300048,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "inst": 12,
+            "inst_mode": 2,
+            "stan": 300064,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000006000",
+            "inst": 6,
+            "inst_mode": 2,
+            "stan": 300147,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "VISA"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000002340",
+            "stan": 300129,
+            "datetime": "190226144413",
+            "entry": 3,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300065,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 4,
+            "amount": "0000000006000",
+            "stan": 300003,
+            "datetime": "190226144413",
+            "entry": 2,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "ALELO"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300156,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 2,
+            "amount": "0000000010000",
+            "stan": 300146,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000006000",
+            "stan": 300159,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "VISA"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "inst": 12,
+            "inst_mode": 2,
+            "stan": 300161,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300154,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 4,
+            "amount": "0000000006000",
+            "stan": 300157,
+            "datetime": "190226144413",
+            "entry": 4,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "ALELO"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300131,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000002340",
+            "stan": 300159,
+            "datetime": "190226144413",
+            "entry": 3,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000006000",
+            "inst": 6,
+            "inst_mode": 2,
+            "stan": 300159,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "VISA"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 2,
+            "amount": "0000000010000",
+            "stan": 300161,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300159,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 4,
+            "amount": "0000000006000",
+            "stan": 300161,
+            "datetime": "190226144413",
+            "entry": 2,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "ALELO"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000002340",
+            "stan": 300162,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 2,
+            "amount": "0000000002340",
+            "stan": 300159,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000006000",
+            "inst": 6,
+            "inst_mode": 2,
+            "stan": 300059,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "VISA"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "inst": 12,
+            "inst_mode": 2,
+            "stan": 300011,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300162,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 4,
+            "amount": "0000000010000",
+            "stan": 300011,
+            "datetime": "190226144413",
+            "entry": 4,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "TICKET"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300014,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "inst": 12,
+            "inst_mode": 2,
+            "stan": 300014,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000006000",
+            "inst": 6,
+            "inst_mode": 2,
+            "stan": 300011,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "VISA"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 2,
+            "amount": "0000000002340",
+            "stan": 300148,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000002340",
+            "stan": 300004,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 4,
+            "amount": "0000000006000",
+            "stan": 300004,
+            "datetime": "190226144413",
+            "entry": 2,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "ALELO"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300130,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 2,
+            "amount": "0000000010000",
+            "stan": 300130,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000006000",
+            "inst": 6,
+            "inst_mode": 2,
+            "stan": 300130,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "VISA"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000002340",
+            "stan": 300162,
+            "datetime": "190226144413",
+            "entry": 3,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300151,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 4,
+            "amount": "0000000006000",
+            "stan": 300066,
+            "datetime": "190226144413",
+            "entry": 4,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "ALELO"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300066,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "inst": 12,
+            "inst_mode": 2,
+            "stan": 300061,
+            "datetime": "190226144413",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300019,
+            "datetime": "190226164316",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 4,
+            "amount": "0000000006000",
+            "stan": 300080,
+            "datetime": "190226164316",
+            "entry": 2,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "ALELO"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300076,
+            "datetime": "190226164316",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000010000",
+            "stan": 300022,
+            "datetime": "190226164316",
+            "entry": 3,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000006000",
+            "inst": 6,
+            "inst_mode": 2,
+            "stan": 300078,
+            "datetime": "190226164316",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "VISA"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "inst": 12,
+            "inst_mode": 2,
+            "stan": 300008,
+            "datetime": "190226164316",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300031,
+            "datetime": "190226164316",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000006000",
+            "stan": 300003,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "VISA"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 2,
+            "amount": "0000000010000",
+            "stan": 300006,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300165,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 4,
+            "amount": "0000000006000",
+            "stan": 300165,
+            "datetime": "190227100431",
+            "entry": 2,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "ALELO"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300066,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000002340",
+            "stan": 300010,
+            "datetime": "190227100431",
+            "entry": 3,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000006000",
+            "inst": 6,
+            "inst_mode": 2,
+            "stan": 300168,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "VISA"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "inst": 12,
+            "inst_mode": 2,
+            "stan": 300150,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300152,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 4,
+            "amount": "0000000010000",
+            "stan": 300061,
+            "datetime": "190227100431",
+            "entry": 4,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "ALELO"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000002340",
+            "stan": 300153,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "inst": 12,
+            "inst_mode": 2,
+            "stan": 300166,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300168,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 4,
+            "amount": "0000000006000",
+            "stan": 300170,
+            "datetime": "190227100431",
+            "entry": 3,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "TICKET"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300169,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 2,
+            "amount": "0000000010000",
+            "stan": 300168,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000006000",
+            "inst": 6,
+            "inst_mode": 2,
+            "stan": 300168,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "VISA"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "inst": 12,
+            "inst_mode": 2,
+            "stan": 300170,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000002340",
+            "stan": 300168,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 4,
+            "amount": "0000000006000",
+            "stan": 300170,
+            "datetime": "190227100431",
+            "entry": 4,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "ALELO"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "stan": 300170,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "CARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 1,
+            "amount": "0000000002340",
+            "inst": 12,
+            "inst_mode": 2,
+            "stan": 300170,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 0,
+            "amount": "0000000006000",
+            "stan": 300060,
+            "datetime": "190227100431",
+            "entry": 1,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "VISA"
+            }
+         }
+      },
+      {
+         "trans": {
+            "type": 3,
+            "amount": "0000000010000",
+            "stan": 1299999,
+            "datetime": "190227100431",
+            "entry": 3,
+            "term": {
+               "net_id": 205,
+               "acq": "ACQ GER7",
+               "serial": "2000015218WL32280888",
+               "tid": "20000002",
+               "mid": "123456789012310",
+               "taxpayer": "18558421000106",
+               "name": "GER7 Sistemas LTDA",
+               "soft_desc": "GER7 Sistemas",
+               "app_ver": "POS701"
+            },
+            "card": {
+               "bin": "401234",
+               "last4d": "0226",
+               "name": "JOSE DA SILVA",
+               "brand": "MASTERCARD"
+            }
+         }
+      }
+   ]
+}

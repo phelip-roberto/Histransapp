@@ -1,0 +1,107 @@
+<div class="animated fadeIn">
+  <ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '3px' }"></ngx-loading>
+  <div class="row d-flex justify-content-end">
+    <p-calendar class="mt-2 mt-sm-0" [(ngModel)]="initial_date" [locale]="pt" showButtonBar="true" dateFormat="dd/mm/yy"
+      placeholder="DD/MM/YYYY" (ngModelChange)=filterSummary()></p-calendar>
+    <i class="fas fa-arrow-right d-none d-sm-block mx-sm-3 my-2"></i>
+    <p-calendar class="mt-2 mt-sm-0 ml-1 ml-sm-0" [(ngModel)]="final_date" [locale]="pt" showButtonBar="true" dateFormat="dd/mm/yy" placeholder="DD/MM/YYYY"
+      [minDate]="dateInit" (ngModelChange)=filterSummary()></p-calendar>
+  </div>
+  <div *ngIf="totalTrans != null && totalTrans != 0, else transactionEmpty" class="row my-4 d-flex justify-content-center">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-3 col-12">
+              <form class="text-center text-sm-left">
+                <div class="form-group" *ngIf="selectedType == 'amount', else elseBlock">
+                  <h3 class="h5">Número Total de Vendas</h3>
+                  <span class="h4"><b>{{ totalTrans }}</b></span>
+                </div>
+                <ng-template #elseBlock>
+                  <div class="form-group">
+                    <h3 class="h5">Valor Total de Vendas</h3>
+                    <span class="h4"><b>R$ {{ totalAmount }}</b></span>
+                  </div>
+                </ng-template>
+                <div class="form-group">
+                  <span class="text-muted">PERÍODO</span>
+                  <div class="row" style="width:250px;margin-bottom:10px">
+                    <div class="col-sm-12 col-4">
+                      <p-radioButton name="group1" value="daily" [(ngModel)]="selectedPeriod"
+                        label="Diário" (ngModelChange)=filterSummary()
+                        inputId="daily"></p-radioButton>
+                    </div>
+                    <div class="col-sm-12 col-4 mt-sm-2">
+                      <p-radioButton name="group1" value="weekly" [(ngModel)]="selectedPeriod"
+                        label="Semanal" (ngModelChange)=filterSummary()
+                        inputId="weekly"></p-radioButton>
+                    </div>
+                    <div class="col-sm-12 col-4 mt-sm-2">
+                      <p-radioButton name="group1" value="monthly" [(ngModel)]="selectedPeriod"
+                        label="Mensal" (ngModelChange)=filterSummary()
+                        inputId="monthly"></p-radioButton>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <span class="text-muted">DADOS DAS VENDAS</span>
+                  <div class="row" style="width:250px;margin-bottom:10px">
+                    <div class="col-sm-12 col-6">
+                      <p-radioButton name="group2" value="transaction" [(ngModel)]="selectedType"
+                        label="Valor" (ngModelChange)=filterSummary()
+                        inputId="transaction"></p-radioButton>
+                    </div>
+                    <div class="col-sm-12 col-6 mt-sm-2">
+                      <p-radioButton name="group2" value="amount" [(ngModel)]="selectedType"
+                        label="Vendas" (ngModelChange)=filterSummary()
+                        inputId="amount"></p-radioButton>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-9 col-12">
+                <p-chart type="bar" [data]="salesTotal"></p-chart>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-8 col-12">
+              <h3 class="h5 text-center text-sm-left mb-2">Tipos Vendas</h3>
+              <p-chart type="doughnut" [data]="salesTypes" [options]="options"></p-chart>
+            </div>
+            <div class="col-sm-4 col-12 mt-3 mt-sm-0 text-center text-sm-left">
+              <h3 class="h5 mb-3">Cancelamentos</h3>
+              <span>Quantidade: <b>{{ totalVoid }}</b></span>
+              <br>
+              <span>Percentual: <b>{{ percentVoid }}</b></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-6 col-12 mx-auto">
+              <h3 class="h5">Bandeiras</h3>
+              <p-chart type="pie" [data]="salesFlags" [options]="options"></p-chart>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ng-template #transactionEmpty>
+    <div class="row my-4 d-flex justify-content-center alert alert-dark" role="alert">
+      Não há registros de transações neste período.
+    </div>
+  </ng-template>
+</div>
