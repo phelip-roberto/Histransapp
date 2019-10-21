@@ -17,8 +17,8 @@ export class DashboardComponent implements OnInit {
   // valores para os gráficos
   values: any;
 
-  initial_date: Date;
-  final_date: Date;
+  initial_date: Date = new Date();
+  final_date: Date = new Date();
   pt: any;
   loading = false;
   totalVoid: any;
@@ -50,12 +50,18 @@ export class DashboardComponent implements OnInit {
 
     if (localStorage.getItem('info')) {
       this.userInfo = qs.parse(this.encrDecrService.decript(localStorage.getItem('info')));
+
+      if (this.userInfo.profile === 'Lojista') {
+        this.initial_date.setDate(this.initial_date.getDate() - 7);
+      } else {
+        this.initial_date.setDate(this.initial_date.getDate() - 1);
+      }
     }
 
     this.params = {
       net_id: this.userInfo.net_id,
-      initial_date: null,
-      final_date: null,
+      initial_date: this.initial_date,
+      final_date: this.final_date,
       lapse: 'daily',
       type: 'transaction',
     };
@@ -63,6 +69,7 @@ export class DashboardComponent implements OnInit {
     this.summaryService.getSummary(this.params).subscribe(
       response => {
         this.fillData(response),
+        console.log('Summary Service - ', response),
         this.loading = false;
       },
       error => {
@@ -86,6 +93,7 @@ export class DashboardComponent implements OnInit {
     this.summaryService.getSummary(filters).subscribe(
       response => {
         this.fillData(response),
+        console.log('Summary Service - ', response),
         this.loading = false;
       },
       error => {

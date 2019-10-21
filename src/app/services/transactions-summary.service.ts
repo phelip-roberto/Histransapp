@@ -22,15 +22,9 @@ export class TransactionsSummaryService {
 
   formatParams(params) {
 
-    if (params.initial_date == null) {
-      params.initial_date = new Date();
-      params.initial_date.setDate(params.initial_date.getDate() - 1);
-      params.final_date = new Date();
-    }
-
     params.initial_date = this.formatToString(params.initial_date);
     params.final_date = this.formatToString(params.final_date);
-
+    console.log('formatParams - ', params);
     return params;
   }
 

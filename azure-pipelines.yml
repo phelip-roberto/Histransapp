@@ -18,5 +18,5 @@ steps:
 - script: |
     npm install -g @angular/cli
     npm install
-    ng build --prod
+    ng build --prod --aot --buildOptimizer --proxy-config proxy.config.json --commonChunk --vendorChunk --optimization --progress --base-href /HISTRANSAPP/ --deploy-url /HISTRANSAPP/
   displayName: 'npm install and build'
