@@ -14,23 +14,36 @@
         </div>
 
         <div class="form-row my-3 text-muted filter">
-          <div class="col-md-6 col-sm-4 col-8">
+          <div class="col-md-4 col-sm-6 col-12">
             <label for="establishment">Estabelecimento</label>
             <input type="text" pKeyFilter="alphanum" class="form-control" placeholder="Estabelecimento" ngModel name="mid"
               id="establishment">
           </div>
-          <div class="col-md-2 col-sm-2 col-4">
+          <div class="col-md-2 col-sm-3 col-6">
+            <label for="status">Status</label>
+            <select class="form-control" id="status" [(ngModel)]="status" name="status">
+              <option value="1" selected>Aprovada</option>
+              <option value="2">Cancelada</option>
+              <option value="3">Negada</option>
+              <!--<option *ngFor="let state of status" [value]="state.id">{{ state.name }}</option>-->
+            </select>
+          </div>
+          <div class="col-md-2 col-sm-3 col-6">
             <label for="type">Tipo</label>
             <select class="form-control" id="type" ngModel name="type">
               <option value="" selected>Todos</option>
               <option *ngFor="let type of transType" [value]="type.id">{{ type.name }}</option>
             </select>
           </div>
-          <div class="col-md-2 col-sm-3 col-6">
+          <div class="col-md-1 col-sm-4 col-4">
+            <label for="idTrans">Id Trans</label>
+            <input type="text" pKeyFilter="int" class="form-control" placeholder="Id Trans" ngModel name="idTrans" id="idTrans">
+          </div>
+          <div class="col-md-1 col-sm-4 col-4">
             <label for="nsu">NSU</label>
             <input type="text" pKeyFilter="int" class="form-control" placeholder="NSU" ngModel name="stan" id="stan">
           </div>
-          <div class="col-md-2 col-sm-3 col-6">
+          <div class="col-md-2 col-sm-4 col-4">
             <label for="terminal">Terminal Lógico</label>
             <input type="text" pKeyFilter="alphanum" class="form-control" placeholder="Terminal Lógico" ngModel name="tid" id="tid">
           </div>
@@ -39,7 +52,7 @@
         <div class="row mt-5">
           <div class="col-sm-4 col-12 d-flex justify-content-between">
             <span class="h5">Quantidade: {{ totalTransactions }}</span>
-            <span class="h5">Total: {{ totalAmount  | currency:'BRL' }}</span>
+            <span class="h5">Total: {{ totalAmount | currency:'BRL':true }}</span>
           </div>
           <div class="col-sm-8 col-12 d-flex justify-content-end">
             <button type="submit" class="btn btn-square btn-orange mr-2">Filtrar</button>
@@ -67,11 +80,11 @@
                 <a href="" [pRowToggler]="info">
                   <i [ngClass]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'" class="mr-2 hid"></i>
                 </a>
-                {{ info.trans.term.acq }}
+                {{ info.trans.term.name }}
               </td>
               <td class="ui-p-5">{{ info.trans.term.tid }}</td>
               <td class="ui-p-4">{{ typeTrans(info.trans.type) }}</td>
-              <td class="ui-p-2">{{ info.trans.amount | currency:'BRL' }}</td>
+              <td class="ui-p-2">{{ info.trans.amount / 100 | currency:'BRL':true }}</td>
               <td class="ui-p-6">{{ info.trans.stan }}</td>
               <td class="ui-p-3">{{ formatDate(info.trans.datetime) }}</td>
             </tr>

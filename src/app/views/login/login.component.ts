@@ -36,6 +36,7 @@ export class LoginComponent implements OnInit {
             localStorage.setItem('info', encrypted);
             this.loading = false;
             this.router.navigate(['/dashboard']);
+            console.log('userService - ', response);
           },
         );
       },

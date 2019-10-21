@@ -43,16 +43,12 @@ export class SalesService {
 
     const params = this.formatParams(formData);
 
+    console.log('params getTransactions - ', params);
+
     return this.http.get('/histrans' + this.apiURL, {headers, params});
   }
 
   formatParams(params) {
-
-    if (params.initial_date == null) {
-      params.initial_date = new Date();
-      params.initial_date.setDate(params.initial_date.getDate() - 1);
-      params.final_date = new Date();
-    }
 
     params.initial_date = this.formatToString(params.initial_date);
     params.final_date = this.formatToString(params.final_date);

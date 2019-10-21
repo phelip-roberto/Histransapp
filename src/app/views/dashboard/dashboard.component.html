@@ -1,6 +1,7 @@
 <div class="animated fadeIn">
   <ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '3px' }"></ngx-loading>
   <div class="row d-flex justify-content-end">
+    <h2 class="h4 mr-auto">Dashboard</h2>
     <p-calendar class="mt-2 mt-sm-0" [(ngModel)]="initial_date" [locale]="pt" showButtonBar="true" dateFormat="dd/mm/yy"
       placeholder="DD/MM/YYYY" (ngModelChange)=filterSummary()></p-calendar>
     <i class="fas fa-arrow-right d-none d-sm-block mx-sm-3 my-2"></i>

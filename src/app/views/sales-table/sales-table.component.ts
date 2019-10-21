@@ -35,13 +35,22 @@ export class SalesTableComponent implements OnInit {
   transactions: any = [];
   pageControl: any;
   totalTransactions: any;
+  initial_date: Date = new Date();
+  final_date: Date = new Date();
   totalAmount: any;
+  teste: any = '000100000';
   transType: any[] = [
     { 'id': 1, 'name': 'Crédito' },
     { 'id': 2, 'name': 'Débito' },
     { 'id': 3, 'name': 'Cancelamento' },
     { 'id': 4, 'name': 'Voucher' },
   ];
+  /*status: any[] = [
+    { 'id': 1, 'name': 'Aprovada' },
+    { 'id': 2, 'name': 'Cancelada' },
+    { 'id': 3, 'name': 'Negada' },
+  ];*/
+  status = 1;
   userInfo: User;
 
   constructor(private salesService: SalesService, private errorService: RequestErrorService, private encrDecrService: EncrDecrService) {
@@ -62,10 +71,16 @@ export class SalesTableComponent implements OnInit {
 
     this.userInfo = qs.parse(this.encrDecrService.decript(localStorage.getItem('info')));
 
+    if (this.userInfo.profile === 'Lojista') {
+      this.initial_date.setDate(this.initial_date.getDate() - 7);
+    } else {
+      this.initial_date.setDate(this.initial_date.getDate() - 1);
+    }
+
     this.params = {
       net_id: this.userInfo.net_id,
-      initial_date: null,
-      final_date: null,
+      initial_date: this.initial_date,
+      final_date: this.final_date,
     };
 
     this.loading = true;
@@ -73,6 +88,7 @@ export class SalesTableComponent implements OnInit {
     this.salesService.getTransactions(this.params).subscribe(
       response => {
         this.fillData(response),
+        console.log('Sales Service - ',  response),
         this.loading = false;
       },
       error => {
@@ -88,6 +104,7 @@ export class SalesTableComponent implements OnInit {
     this.salesService.getTransactions(formData).subscribe(
       response => {
         this.fillData(response),
+        console.log('Sales Service - ',  response),
         this.loading = false;
       },
       error => {
