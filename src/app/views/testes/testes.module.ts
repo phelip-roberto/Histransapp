@@ -14,6 +14,9 @@ import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { ChartModule } from 'primeng/chart';
 import { TableModule } from 'primeng/table';
+import { ChartsModule } from 'ng2-charts';
+import { BarChartComponent } from '../../containers/components/bar-chart.component';
+import { PieChartComponent } from '../../containers/components/pie-chart.component';
 
 @NgModule({
   imports: [
@@ -24,8 +27,13 @@ import { TableModule } from 'primeng/table';
     CalendarModule,
     RadioButtonModule,
     ChartModule,
+    ChartsModule,
     TableModule
   ],
-  declarations: [ TestesComponent ]
+  declarations: [
+    TestesComponent,
+    BarChartComponent,
+    PieChartComponent,
+  ]
 })
 export class TestesModule { }

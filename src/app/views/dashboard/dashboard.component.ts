@@ -16,6 +16,9 @@ export class DashboardComponent implements OnInit {
 
   // valores para os gráficos
   values: any;
+  barChart: any;
+  pieChart: any;
+  pieChart1: any;
 
   initial_date: Date = new Date();
   final_date: Date = new Date();
@@ -131,56 +134,9 @@ export class DashboardComponent implements OnInit {
 
     this.values = this.formatArray(data);
 
-    this.salesTotal = {
-      labels: this.values[0].xvalue,
-      datasets: [
-        {
-          label: '',
-          backgroundColor: '#42A5F5',
-          borderColor: '#1E88E5',
-          data: this.values[0].yvalue
-        },
-      ]
-    };
+    this.barChart = this.values[0];
+    this.pieChart = this.values[1];
+    this.pieChart1 = this.values[2];
 
-    this.salesTypes = {
-      labels: this.values[1].xvalue,
-      datasets: [
-        {
-          data: this.values[1].yvalue,
-          backgroundColor: [
-            '#FF6384',
-            '#36A2EB',
-            '#FFCE56'
-          ],
-          hoverBackgroundColor: [
-            '#FF6384',
-            '#36A2EB',
-            '#FFCE56'
-          ]
-        }
-      ]
-    };
-
-    this.salesFlags = {
-      labels: this.values[2].xvalue,
-      datasets: [
-        {
-          data: this.values[2].yvalue,
-          backgroundColor: [
-            '#4169E1',
-            '#A52A2A',
-            '#9ACD32',
-            '#9932CC'
-          ],
-          hoverBackgroundColor: [
-            '#4169E1',
-            '#A52A2A',
-            '#9ACD32',
-            '#9932CC'
-          ]
-        }
-      ]
-    };
   }
 }

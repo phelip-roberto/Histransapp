@@ -13,8 +13,10 @@ import { CalendarModule } from 'primeng/calendar';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { RadioButtonModule } from 'primeng/radiobutton';
-import { ChartModule } from 'primeng/chart';
 import { NgxLoadingModule } from 'ngx-loading';
+import { ChartsModule } from 'ng2-charts';
+import { BarChartComponent } from '../../containers/components/bar-chart.component';
+import { PieChartComponent } from '../../containers/components/pie-chart.component';
 
 @NgModule({
   imports: [
@@ -24,10 +26,14 @@ import { NgxLoadingModule } from 'ngx-loading';
     ButtonsModule.forRoot(),
     CalendarModule,
     RadioButtonModule,
-    ChartModule,
+    ChartsModule,
     NgxLoadingModule,
     CommonModule
   ],
-  declarations: [ DashboardComponent ],
+  declarations: [
+    DashboardComponent,
+    BarChartComponent,
+    PieChartComponent
+  ],
 })
 export class DashboardModule { }

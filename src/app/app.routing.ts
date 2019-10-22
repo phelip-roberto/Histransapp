@@ -38,7 +38,6 @@ export const routes: Routes = [
       {
         path: 'testes',
         loadChildren: './views/testes/testes.module#TestesModule',
-        canActivate: [ AuthGuard ]
       },
 
       {
